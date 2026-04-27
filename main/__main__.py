@@ -6,12 +6,6 @@ from . import bot
 # Purana code (json wala) hata dein, aur ye likhein:
 
 
-# Ab jahan pehle getenv("ID") likha tha, wahan ab "config.API_ID" use karein
-api_id = config.API_ID
-api_hash = config.API_HASH
-bot_token = config.BOT_TOKEN
-ss = config.SESSION
-
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
                     level=logging.WARNING)
 
