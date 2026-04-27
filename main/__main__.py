@@ -4,7 +4,7 @@ from main.utils import load_plugins
 import logging
 from . import bot
 # Purana code (json wala) hata dein, aur ye likhein:
-import config 
+
 
 # Ab jahan pehle getenv("ID") likha tha, wahan ab "config.API_ID" use karein
 api_id = config.API_ID
